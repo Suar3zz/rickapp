@@ -1,5 +1,15 @@
+import Encabezado from "./components/Encabezado";
+import PieDePagina from "./components/PieDePagina";
+import SeccionPrincipal from "./components/SeccionPrincipal";
+
 const App = () => {
-  return <h1>Hello!!!!</h1>;
+  return (
+  <>
+  <Encabezado/>
+  <SeccionPrincipal/>
+  <PieDePagina/>
+  </>
+  );
 };
 
 export default App;
