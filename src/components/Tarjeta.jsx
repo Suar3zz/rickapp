@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "../styles/Tarjeta.module.css"
 const Tarjeta = () => {
     return (
         <div className="Tarjeta">
@@ -7,7 +7,7 @@ const Tarjeta = () => {
                 <img src="Armothy.jpeg" alt="imagen" />
             </div>
             <div className="DescripcionTarjeta">
-                <h4><a href="">Armothy</a></h4>
+                <h4><a href="">Nombre Personaje</a></h4>
                 <p className="Estado">
                     Estado - Tipo de Criatura
                 </p>

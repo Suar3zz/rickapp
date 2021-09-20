@@ -1,0 +1,8 @@
+.Tarjeta{
+    box-sizing: inherit;
+    background-color: #202329;
+    padding: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap | wrap | wrap-reverse;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card } from 'react-bootstrap'
 import Tarjeta from './Tarjeta'
+import "../styles/SeccionPrincipal.module.css"
 
 const SeccionPrincipal = () => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "../styles/PieDePagina.module.css"
 const PieDePagina = () => {
     return (
         <footer>

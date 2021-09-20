@@ -1,0 +1,23 @@
+ul{
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    margin: 0;  
+    align-items: center;
+}
+.IconoEncabezado svg {
+    fill: black;
+}
+header{
+   display: flex;
+   align-items:center;
+   justify-content: space-between;
+
+}
+nav{
+    display: flex;
+    align-items:center;
+}
+li{
+    margin-left: 1rem;
+}
