@@ -1,8 +1,14 @@
-.Tarjeta{
-    box-sizing: inherit;
-    background-color: #202329;
-    padding: 0.75rem;
-    position: relative;
-    display: flex;
-    flex-wrap: nowrap | wrap | wrap-reverse;
+.Tarjeta {
+  display: block;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1920px;
+  padding: 20px;
+  background-color: #24282f;
+}
+.DescripcionTarjeta {
+  color: white;
 }
